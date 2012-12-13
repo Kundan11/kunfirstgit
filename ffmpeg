@@ -1,0 +1,1 @@
+alias screen='ffmpeg -f alsa -i pulse -f x11grab -r 25 -s 1366*768 -i :0.0 -vcodec libx264 -preset ultrafast -threads 4 -y -sameq screencast.mkv'
